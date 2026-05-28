@@ -908,13 +908,26 @@
       <div class="photo-block">
         <img src="./trader.jpg" alt="Zappy Tradezzz - The Binary God" class="trader-photo">
         <div class="photo-gradient-overlay">
-          <span class="photo-eyebrow">THE FACE BEHIND THE SIGNALS</span>
           <h2 class="photo-name">Zappy Tradezzz</h2>
           <span class="photo-title">The Binary God</span>
         </div>
       </div>
-      
-      <!-- PART B — Identity Copy Block -->
+    </section>
+
+    <!-- SECTION 3 — HERO CTA (moved above quote) -->
+    <section class="hero-cta-section fade-item delay-3">
+      <a href="https://t.me/zappytradezzz" target="_blank" rel="noopener noreferrer" class="cta-button">
+        <!-- SVG Paper Plane Icon -->
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width: 16px; height: 16px;">
+          <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+        </svg>
+        JOIN THE COMMUNITY
+      </a>
+      <span class="cta-subtext">27,000 TRADERS ALREADY INSIDE</span>
+    </section>
+
+    <!-- SECTION 2B — IDENTITY COPY (quote + trust row, now below button) -->
+    <section class="fade-item delay-2">
       <div class="identity-copy-block">
         <div class="gold-divider">
           <div class="divider-diamond"></div>
@@ -930,18 +943,6 @@
           <span class="trust-item">CONSISTENT</span>
         </div>
       </div>
-    </section>
-
-    <!-- SECTION 3 — HERO CTA -->
-    <section class="hero-cta-section fade-item delay-3">
-      <a href="https://t.me/zappytradezzz" target="_blank" rel="noopener noreferrer" class="cta-button">
-        <!-- SVG Paper Plane Icon -->
-        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width: 16px; height: 16px;">
-          <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
-        </svg>
-        JOIN THE COMMUNITY
-      </a>
-      <span class="cta-subtext">27,000 TRADERS ALREADY INSIDE</span>
     </section>
 
     <!-- SECTION 4 — STATS ROW -->
@@ -962,47 +963,16 @@
       </div>
     </section>
 
-    <!-- SECTION 5 — SIGNAL PROOF CARDS -->
+    <!-- SECTION 5 — LIVE SESSION PROOF IMAGE -->
     <section class="fade-item delay-5">
-      <h3 class="section-heading">RECENT SIGNAL RESULTS</h3>
-      <div class="signal-cards-container">
-        <!-- Card 1 -->
-        <div class="signal-card">
-          <div class="signal-left">
-            <span class="asset-pair">EUR/USD</span>
-            <span class="signal-badge badge-call">▲ CALL</span>
-            <span class="signal-expiry">5 min</span>
-          </div>
-          <div class="signal-right">
-            <span class="result-badge">✅ WIN</span>
-          </div>
-        </div>
-
-        <!-- Card 2 -->
-        <div class="signal-card">
-          <div class="signal-left">
-            <span class="asset-pair">OTC/USD</span>
-            <span class="signal-badge badge-put">▼ PUT</span>
-            <span class="signal-expiry">3 min</span>
-          </div>
-          <div class="signal-right">
-            <span class="result-badge">✅ WIN</span>
-          </div>
-        </div>
-
-        <!-- Card 3 -->
-        <div class="signal-card">
-          <div class="signal-left">
-            <span class="asset-pair">GBP/JPY</span>
-            <span class="signal-badge badge-call">▲ CALL</span>
-            <span class="signal-expiry">5 min</span>
-          </div>
-          <div class="signal-right">
-            <span class="result-badge">✅ WIN</span>
-          </div>
-        </div>
+      <h3 class="section-heading">LIVE SESSION PROOF</h3>
+      <div style="width: 100%; box-sizing: border-box; border-top: 1.5px solid var(--primary-gold); border-left: 0.5px solid var(--border-color); border-right: 0.5px solid var(--border-color); border-bottom: 0.5px solid var(--border-color); border-radius: 0 0 8px 8px; overflow: hidden;">
+        <img src="./trader image/WhatsApp Image 2026-05-28 at 18.16.38.jpeg" alt="Zappy Tradezzz Live Zoom Session" style="width: 100%; display: block; object-fit: cover;">
       </div>
-      <span class="signal-note">"Every signal result is posted publicly in the channel — judge for yourself."</span>
+      <div style="display: flex; align-items: center; gap: 10px; margin-top: 14px; background: rgba(201,168,76,0.07); border-left: 2.5px solid var(--primary-gold); border-radius: 0 6px 6px 0; padding: 10px 14px;">
+        <span style="width: 7px; height: 7px; background: #ef4444; border-radius: 50%; flex-shrink: 0; animation: livePulse 1.4s ease-in-out infinite;"></span>
+        <span style="font-family: var(--font-italic); font-size: 13px; font-style: italic; color: var(--primary-gold); line-height: 1.4;">"Every session is live with 100+ members — join us daily."</span>
+      </div>
     </section>
 
     <!-- SECTION 6 — WHAT YOU GET -->
@@ -1060,22 +1030,43 @@
 
     <!-- SECTION 7 — DAILY LIVE SESSION CARD -->
     <section class="fade-item delay-7">
-      <div class="horizontal-card">
-        <div class="card-left">
-          <span class="card-tag">DAILY EVENT</span>
-          <h4 class="card-title">Live Public Trading Session</h4>
-          <p class="card-desc">Watch trades happen live. Ask questions. Understand the logic behind every signal.</p>
-        </div>
-        <div class="card-right">
-          <div class="live-badge-box">
-            <span class="live-badge-line">EVERY</span>
-            <span class="live-badge-line">DAY</span>
-            <div class="live-badge-divider"></div>
-            <span class="live-badge-line">LIVE</span>
+      <div class="horizontal-card" style="flex-direction: column; gap: 14px; align-items: flex-start; border: 0.5px solid var(--border-color); position: relative; overflow: hidden;">
+        <!-- Glow top accent -->
+        <div style="position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, transparent, #c9a84c, transparent);"></div>
+
+        <!-- Top row: tag + live dot -->
+        <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+          <span class="card-tag" style="margin-bottom: 0;">📅 DAILY EVENT</span>
+          <div style="display: flex; align-items: center; gap: 6px;">
+            <span style="width: 8px; height: 8px; background: #ef4444; border-radius: 50%; display: inline-block; animation: livePulse 1.4s ease-in-out infinite;"></span>
+            <span style="font-family: var(--font-heading); font-size: 9px; font-weight: 700; color: #ef4444; letter-spacing: 2px;">LIVE</span>
           </div>
         </div>
+
+        <!-- Title with Zoom icon -->
+        <div style="display: flex; align-items: center; gap: 10px;">
+          <!-- Zoom-style camera icon -->
+          <div style="background: #2D8CFF; border-radius: 6px; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+            <svg viewBox="0 0 24 24" fill="white" style="width: 18px; height: 18px;">
+              <path d="M15 10l4.553-2.276A1 1 0 0121 8.723v6.554a1 1 0 01-1.447.894L15 14v-4zM3 8a2 2 0 012-2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V8z"/>
+            </svg>
+          </div>
+          <h4 class="card-title" style="margin: 0;">Live Zoom Meet — Every Day</h4>
+        </div>
+
+        <!-- Description -->
+        <p class="card-desc" style="margin: 0;">Watch real trades happen live on Zoom. Ask questions, learn the strategy, and trade alongside 100+ members — daily.</p>
+
+
       </div>
     </section>
+
+    <style>
+      @keyframes livePulse {
+        0%, 100% { opacity: 1; transform: scale(1); box-shadow: 0 0 0 0 rgba(239,68,68,0.5); }
+        50% { opacity: 0.7; transform: scale(1.2); box-shadow: 0 0 0 5px rgba(239,68,68,0); }
+      }
+    </style>
 
     <!-- SECTION 8 — OBJECTION HANDLER -->
     <section class="objection-section fade-item delay-8">
