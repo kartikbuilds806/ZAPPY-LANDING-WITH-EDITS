@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: kartikbuilds806/ZAPPY-LANDING-WITH-EDITS
+  branch: main
+
+local_backend: true
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "landing"
+    label: "Landing Page Content"
+    folder: "src/content/landing"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Hero Name", name: "hero_name", widget: "string", default: "ZAPPY TRADEZZZ"}
+      - {label: "Hero Subtitle", name: "hero_subtitle", widget: "string", default: "THE BINARY GOD"}
+      - {label: "Trader Image", name: "trader_image", widget: "image"}
+      - {label: "Description", name: "description", widget: "text", default: "Join 27,000+ traders getting accurate binary signals on Quotex. Daily live sessions."}
