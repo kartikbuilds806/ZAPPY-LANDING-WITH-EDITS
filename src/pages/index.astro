@@ -1,4 +1,4 @@
---
+---
 import * as content from '../content/landing/index.md';
 const cms = content.frontmatter;
 ---
@@ -920,7 +920,7 @@ const cms = content.frontmatter;
 
     <!-- SECTION 3 — HERO CTA (moved above quote) -->
     <section class="hero-cta-section fade-item delay-3">
-      <a href="https://t.me/+paxWigzZe-dmZmNl" target="_blank" rel="noopener noreferrer" class="cta-button">
+      <a href={cms.telegram_link} target="_blank" rel="noopener noreferrer" class="cta-button">
         <!-- SVG Paper Plane Icon -->
         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width: 16px; height: 16px;">
           <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
@@ -953,11 +953,11 @@ const cms = content.frontmatter;
     <section class="stats-section fade-item delay-4">
       <div class="stats-row">
         <div class="stat-box">
-          <span class="stat-number">27K+</span>
+          <span class="stat-number">{cms.member_count}</span>
           <span class="stat-label">MEMBERS</span>
         </div>
         <div class="stat-box">
-          <span class="stat-number">95%</span>
+          <span class="stat-number">{cms.accuracy_rate}</span>
           <span class="stat-label">ACCURACY</span>
         </div>
         <div class="stat-box">
@@ -971,7 +971,7 @@ const cms = content.frontmatter;
     <section class="fade-item delay-5">
       <h3 class="section-heading">LIVE SESSION PROOF</h3>
       <div style="width: 100%; box-sizing: border-box; border-top: 1.5px solid var(--primary-gold); border-left: 0.5px solid var(--border-color); border-right: 0.5px solid var(--border-color); border-bottom: 0.5px solid var(--border-color); border-radius: 0 0 8px 8px; overflow: hidden;">
-        <img src="./trader image/WhatsApp Image 2026-05-28 at 18.16.38.jpeg" alt="Zappy Tradezzz Live Zoom Session" style="width: 100%; display: block; object-fit: cover;">
+        <img src={cms.proof_image} alt="Zappy Tradezzz Live Zoom Session" style="width: 100%; display: block; object-fit: cover;">
       </div>
       <div style="display: flex; align-items: center; gap: 10px; margin-top: 14px; background: rgba(201,168,76,0.07); border-left: 2.5px solid var(--primary-gold); border-radius: 0 6px 6px 0; padding: 10px 14px;">
         <span style="width: 7px; height: 7px; background: #ef4444; border-radius: 50%; flex-shrink: 0; animation: livePulse 1.4s ease-in-out infinite;"></span>
@@ -1074,11 +1074,9 @@ const cms = content.frontmatter;
 
     <!-- SECTION 8 — OBJECTION HANDLER -->
     <section class="objection-section fade-item delay-8">
-      <p class="objection-quote">"Worried this is just another signals group?"</p>
+      <p class="objection-quote">{cms.objection_quote}</p>
       <p class="objection-response">
-        Every signal comes with full analysis — entry, expiry, reasoning.
-        Results are posted live for 27,000+ members to see.
-        No hiding. No excuses. Just consistency.
+        {cms.objection_response}
       </p>
       <div class="gold-divider" style="margin-bottom: 0;">
         <div class="divider-diamond"></div>
@@ -1087,7 +1085,7 @@ const cms = content.frontmatter;
 
     <!-- SECTION 9 — FINAL CTA -->
     <section class="final-cta-section fade-item delay-9">
-      <a href="https://t.me/+paxWigzZe-dmZmNl" target="_blank" rel="noopener noreferrer" class="cta-button">
+      <a href={cms.telegram_link} target="_blank" rel="noopener noreferrer" class="cta-button">
         <!-- SVG Paper Plane Icon -->
         <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="width: 16px; height: 16px;">
           <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>

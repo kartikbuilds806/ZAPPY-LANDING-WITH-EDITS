@@ -15,7 +15,14 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+      - {label: "Browser Title", name: "title", widget: "string", default: "Zappy Tradezzz Landing Page"}
       - {label: "Hero Name", name: "hero_name", widget: "string", default: "ZAPPY TRADEZZZ"}
       - {label: "Hero Subtitle", name: "hero_subtitle", widget: "string", default: "THE BINARY GOD"}
       - {label: "Trader Image", name: "trader_image", widget: "image"}
-      - {label: "Description", name: "description", widget: "text", default: "Join 27,000+ traders getting accurate binary signals on Quotex. Daily live sessions."}
+      - {label: "Identity Description", name: "description", widget: "text", default: "Accurate signals. Transparent analysis."}
+      - {label: "Member Count", name: "member_count", widget: "string", default: "27K+"}
+      - {label: "Accuracy Rate", name: "accuracy_rate", widget: "string", default: "95%"}
+      - {label: "Live Zoom Proof Image", name: "proof_image", widget: "image"}
+      - {label: "Objection Quote", name: "objection_quote", widget: "string"}
+      - {label: "Objection Response", name: "objection_response", widget: "text"}
+      - {label: "Telegram Link", name: "telegram_link", widget: "string"}
