@@ -1,7 +1,12 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import vercel from '@astrojs/vercel/serverless';
+import decapCmsOauth from 'astro-decap-cms-oauth';
 
 // https://astro.build/config
 export default defineConfig({
+  output: 'hybrid',
+  adapter: vercel(),
+  integrations: [decapCmsOauth()],
   trailingSlash: 'never'
 });

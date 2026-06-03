@@ -2,6 +2,8 @@ backend:
   name: github
   repo: kartikbuilds806/ZAPPY-LANDING-WITH-EDITS
   branch: main
+  base_url: https://zappy-landing-with-edits.vercel.app
+  auth_endpoint: oauth
 
 local_backend: true
 
